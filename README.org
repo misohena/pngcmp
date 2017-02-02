@@ -1,0 +1,8 @@
+* pngcmp
+
+Pngcmp compares two .png files and outputs the number of matching pixels and total number of pixels.
+
+#+BEGIN_SRC sh
+pngcmp a.png b.png
+# => 303916	307200
+#+END_SRC
